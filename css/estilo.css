@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+
+.tamLogo {
+    width: 150px;
+}
+
+.fuentesNav {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.encabezado {
+    /* background-color: bisque; */
+    border-top: solid 20px #c1101a;
+}
+
+nav li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 15px;
+    color: gray;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    padding:0 15px;
+}
+
+a:hover {
+    background-color: #c1101a;
+    color: #fafafa;
+}
+
+/* PRODUCTOS */
+
+.tituloProductos {
+    background-color: #c1101a;
+    color: #fafafa;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.tituloProductos h2 {
+    font-size: 35px;
+}
+
+
+/*CARDS*/
+
+
+.colorBtn {
+    background-color: #c1101a;
+    color: #fafafa;
+    font-size: 18px;
+}
+
+.colorBtn:hover {
+    background-color: red;
+    color: #fafafa;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #c1101a;
+    color: white;
+}
+
+footer ul li a {
+    color: #fafafa!important;
+}
+
+.text-footer {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
